@@ -1,0 +1,5 @@
+fastapi[all]
+requests
+pymongo>=3.12.0
+pydantic
+starlette
