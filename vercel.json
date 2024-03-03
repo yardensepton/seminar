@@ -7,6 +7,6 @@
     { "src": "/(.*)", "dest": "/app.py" }
   ],
   "env": {
-    "APP_MODULE": "uvicorn main:app"
+    "APP_MODULE": "app:app"
   }
 }
