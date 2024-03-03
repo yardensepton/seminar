@@ -1,0 +1,307 @@
+[{
+    "id": 1,
+    "name": "Ground Beef",
+    "brand": "Angus",
+    "cost": 5.99,
+    "weight": 500,
+    "alternative": 1
+  },
+  {
+    "id": 2,
+    "name": "Butter",
+    "brand": "Land O'Lakes",
+    "cost": 3.99,
+    "weight": 250,
+    "alternative": 1
+  },
+  {
+    "id": 3,
+    "name": "Broccoli",
+    "brand": "Fresh",
+    "cost": 1.99,
+    "weight": 300,
+    "alternative": 1
+  },
+  {
+  
+    "id": 4,
+    "name": "Ground Turkey",
+    "brand": "Jennie-O",
+    "cost": 4.29,
+    "weight": 400,
+    "alternative": 1
+  },
+  {
+  
+    "id": 5,
+    "name": "Almond Milk",
+    "brand": "Silk",
+    "cost": 2.99,
+    "weight": 1000,
+    "alternative": 1
+  },
+  {
+  
+    "id": 6,
+    "name": "Sliced Bread",
+    "brand": "Wonder Bread",
+    "cost": 2.29,
+    "weight": 700,
+    "alternative": 1
+  },
+  {
+  
+    "id": 7,
+    "name": "Honey",
+    "brand": "Sue Bee",
+    "cost": 3.79,
+    "weight": 500,
+    "alternative": 1
+  },
+  {
+    "_id": {
+      "$oid": "65e0746ec2fd7e3b3620aa57"
+    },
+    "id": 8,
+    "name": "Frozen Pizza",
+    "brand": "DiGiorno",
+    "cost": 6.49,
+    "weight": 600,
+    "alternative": 1
+  },
+  {
+  
+    "id": 9,
+    "name": "Granola Bars (box)",
+    "brand": "Nature Valley",
+    "cost": 3.99,
+    "weight": 450,
+    "alternative": 1
+  },
+  {
+  
+    "id": 10,
+    "name": "Toothpaste",
+    "brand": "Colgate",
+    "cost": 2.49,
+    "weight": 150,
+    "alternative": 1
+  },
+  {
+  
+    "id": 11,
+    "name": "Salmon Fillet",
+    "brand": "Wild-caught",
+    "cost": 9.99,
+    "weight": 300,
+    "alternative": 1
+  },
+  {
+  
+    "id": 12,
+    "name": "Greek Yogurt",
+    "brand": "Fage",
+    "cost": 3.5,
+    "weight": 500,
+    "alternative": 1
+  },
+  {
+    "_id": {
+      "$oid": "65e0746ec2fd7e3b3620aa5c"
+    },
+    "id": 13,
+    "name": "Cheese",
+    "brand": "Tillamook",
+    "cost": 4.99,
+    "weight": 200,
+    "alternative": 1
+  },
+  {
+  
+    "id": 14,
+    "name": "Apples",
+    "brand": "Honeycrisp",
+    "cost": 2.99,
+    "weight": 1000,
+    "alternative": 1
+  },
+  {
+    "_id": {
+      "$oid": "65e0746ec2fd7e3b3620aa5e"
+    },
+    "id": 15,
+    "name": "Tomatoes",
+    "brand": "Campari",
+    "cost": 2.99,
+    "weight": 500,
+    "alternative": 1
+  },
+  {
+  
+    "id": 16,
+    "name": "Dark Chocolate Bar",
+    "brand": "Lindt",
+    "cost": 3.99,
+    "weight": 100,
+    "alternative": 1
+  },
+  {
+  
+    "id": 17,
+    "name": "Milk Chocolate Bar",
+    "brand": "Hershey's",
+    "cost": 2.49,
+    "weight": 150,
+    "alternative": 1
+  },
+  {
+  
+    "id": 18,
+    "name": "Ground Beef",
+    "brand": "Organic Prairie",
+    "cost": 8.99,
+    "weight": 750,
+    "alternative": 2
+  },
+  {
+  
+    "id": 19,
+    "name": "Butter",
+    "brand": "Kerrygold",
+    "cost": 7.49,
+    "weight": 500,
+    "alternative": 2
+  },
+  {
+  
+    "id": 20,
+    "name": "Broccoli",
+    "brand": "Organic",
+    "cost": 3.49,
+    "weight": 500,
+    "alternative": 2
+  },
+  {
+    "id": 21,
+    "name": "Ground Turkey",
+    "brand": "Butterball",
+    "cost": 3.49,
+    "weight": 300,
+    "alternative": 2
+  },
+  {
+  
+    "id": 22,
+    "name": "Almond Milk",
+    "brand": "Califia Farms",
+    "cost": 2.49,
+    "weight": 750,
+    "alternative": 2
+  },
+  {
+  
+    "id": 23,
+    "name": "Sliced Bread",
+    "brand": "Arnold",
+    "cost": 3.49,
+    "weight": 900,
+    "alternative": 2
+  },
+  {
+  
+    "id": 24,
+    "name": "Honey",
+    "brand": "Nature Nate's",
+    "cost": 5.49,
+    "weight": 750,
+    "alternative": 2
+  },
+  {
+    "id": 25,
+    "name": "Frozen Pizza",
+    "brand": "Newman's Own",
+    "cost": 8.99,
+    "weight": 800,
+    "alternative": 2
+  },
+  {
+  
+    "id": 26,
+    "name": "Granola Bars (box)",
+    "brand": "KIND",
+    "cost": 4.99,
+    "weight": 400,
+    "alternative": 2
+  },
+  {
+  
+    "id": 27,
+    "name": "Toothpaste",
+    "brand": "Crest",
+    "cost": 1.99,
+    "weight": 100,
+    "alternative": 2
+  },
+  {
+  
+    "id": 28,
+    "name": "Salmon Fillet",
+    "brand": "Sustainable Harvest",
+    "cost": 12.99,
+    "weight": 400,
+    "alternative": 2
+  },
+  {
+  
+    "id": 29,
+    "name": "Greek Yogurt",
+    "brand": "Oikos",
+    "cost": 4.29,
+    "weight": 600,
+    "alternative": 2
+  },
+  {
+  
+    "id": 30,
+    "name": "Cheese",
+    "brand": "Cabot",
+    "cost": 5.99,
+    "weight": 300,
+    "alternative": 2
+  },
+  {
+  
+    "id": 31,
+    "name": "Apples",
+    "brand": "Fuji",
+    "cost": 4.49,
+    "weight": 1500,
+    "alternative": 2
+  },
+  {
+  
+    "id": 32,
+    "name": "Tomatoes",
+    "brand": "Vine-Ripened",
+    "cost": 3.99,
+    "weight": 700,
+    "alternative": 2
+  },
+  {
+  
+    "id": 33,
+    "name": "Dark Chocolate Bar",
+    "brand": "Ghirardelli",
+    "cost": 4.49,
+    "weight": 120,
+    "alternative": 2
+  },
+  {
+  
+    "id": 34,
+    "name": "Milk Chocolate Bar",
+    "brand": "Cadbury",
+    "cost": 3.99,
+    "weight": 200,
+    "alternative": 2
+  }]

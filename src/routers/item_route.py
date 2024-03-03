@@ -1,6 +1,6 @@
 from typing import List, Union
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Query
 
 from src.controllers.item_controller import ItemController
 from src.entity.item import Item
@@ -15,17 +15,15 @@ items_controller = ItemController()
 
 @router.get("", response_model=Union[List[Item], Item])
 async def get_items(
-    name: str = Query(None, description="Name of the item"),
-    alternative: int = Query(None, description="Alternative parameter"),
-    item_id: int = Query(None, description="Item ID parameter")
+        name: str = Query(None, description="Name of the item"),
+        alternative: int = Query(None, description="Alternative parameter"),
+        item_id: int = Query(None, description="Item ID parameter")
 ):
     if name:
-        return await items_controller.get_all_items_by(key="name", value=name)
+        return items_controller.get_all_items_by(key="name", value=name)
     elif alternative is not None:
-        return await items_controller.get_all_items_by(key="alternative", value=alternative)
+        return items_controller.get_all_items_by(key="alternative", value=alternative)
     elif item_id is not None:
-        return await items_controller.get_all_items_by(key="id", value=item_id)
+        return items_controller.get_all_items_by(key="id", value=item_id)
     else:
-        # Handle case where no query parameters are provided
-        # Return an empty list or a default Item, depending on your use case
-        raise HTTPException(status_code=404, detail="No items found")
+        raise ValueError("At least one query parameter (name, alternative, item_id) must be provided.")
