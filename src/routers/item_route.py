@@ -1,6 +1,6 @@
 from typing import List, Union
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, HTTPException, Query
 
 from src.controllers.item_controller import ItemController
 from src.entity.item import Item
@@ -26,5 +26,6 @@ async def get_items(
     elif item_id is not None:
         return await items_controller.get_all_items_by(key="id", value=item_id)
     else:
-        # Handle case where no query parameters are provided (return default response, etc.)
-        return {"message": "No query parameters provided."}
+        # Handle case where no query parameters are provided
+        # Return an empty list or a default Item, depending on your use case
+        raise HTTPException(status_code=404, detail="No items found")
