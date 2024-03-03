@@ -26,4 +26,4 @@ async def get_items(
     elif item_id is not None:
         return items_controller.get_all_items_by(key="id", value=item_id)
     else:
-        raise ValueError("At least one query parameter (name, alternative, item_id) must be provided.")
+        return items_controller.get_all_items_by(key="all", value=None)
