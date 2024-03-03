@@ -14,7 +14,7 @@ items_controller = ItemController()
 
 
 @router.get("", response_model=Union[List[Item], Item])
-def get_items(
+async def get_items(
         name: str = Query(None, description="Name of the item"),
         alternative: int = Query(None, description="Alternative parameter"),
         item_id: int = Query(None, description="Item ID parameter")
